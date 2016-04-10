@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CheckNutCon</string>
+    <string name="lbl_bemvindo_crie">Bem Vindo ao CheckNutCon! Favor efetuar o cadastro para acessar a aplicação.</string>
+    <string name="lbl_Cadastrar" >Cadastrar</string>
+    <string name="lbl_sair">SAIR</string>
+</resources>
