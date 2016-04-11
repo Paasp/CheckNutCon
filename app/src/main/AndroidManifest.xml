@@ -15,7 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CheckNutConMain"></activity>
+        <activity android:name=".CheckNutConMain" />
+        <activity android:name=".CadastroDoNutricionista" />
+        <activity android:name=".CadastroDeCliente"></activity>
     </application>
 
 </manifest>

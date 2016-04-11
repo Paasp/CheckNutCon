@@ -21,13 +21,14 @@ public class BemVindo extends AppCompatActivity implements View.OnClickListener{
 
         btnCadastrar.setOnClickListener(this);
 
+
     }
 
     @Override
     public void onClick(View v) {
 
 
-        Intent it = new  Intent (this, CheckNutConMain.class);
+        Intent it = new  Intent (this, CadastroDoNutricionista.class);
         startActivity(it);
 
 
