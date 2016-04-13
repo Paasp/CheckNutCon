@@ -4,7 +4,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 public class CheckNutConMain extends AppCompatActivity {
 
@@ -15,7 +14,7 @@ public class CheckNutConMain extends AppCompatActivity {
     }
 
     public boolean OnCreateContextMenuListener(Menu menu){
-    getMenuInflater().inflate(R.menu.menu, menu);
+    getMenuInflater().inflate(R.menu.menu_check_nut_con_main, menu);
         return true;
     }
 
