@@ -12,4 +12,7 @@
     <string name="lbl_novoCliente">Novo Cliente</string>
     <string name="lbl_novaConsultoria">Nova Consultoria</string>
     <string name="lbl_pesquisar">Pesquisar</string>
+    <string name="lbl_cliente">Cliente</string>
+    <string name="lbl_checkList">CheckList</string>
+
 </resources>
