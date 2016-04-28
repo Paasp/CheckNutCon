@@ -15,10 +15,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CheckNutConMain" />
-        <activity android:name=".CadastroDoNutricionista" />
-        <activity android:name=".CadastroDoCliente" />
-        <activity android:name=".ClientePrincipal"></activity>
+        <activity
+            android:name=".CheckList"
+            android:label="@string/title_activity_check_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CadastroDoNutricionista"
+            android:label="@string/title_activity_cadastro_do_nutricionista"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CheckNutCon"
+            android:label="@string/title_activity_check_nut_con"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

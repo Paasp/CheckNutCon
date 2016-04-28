@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.checknutconcon.checknutcon.CheckList">
+
+    <item android:id="@+id/mni_acaoCliente" android:title="@string/lbl_cliente"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/mni_acaoCheckList" android:title="@string/lbl_checkList"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/mni_acaoSair" android:title="@string/lbl_sair"
+        android:orderInCategory="100" app:showAsAction="never" android:visible="true"/>
+</menu>

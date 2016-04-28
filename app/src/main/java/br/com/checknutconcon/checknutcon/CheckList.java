@@ -1,30 +1,19 @@
 package br.com.checknutconcon.checknutcon;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.*;
-import android.widget.*;
 
-public class BemVindo extends AppCompatActivity implements View.OnClickListener{
-
-    private Button btnCadastrar;
-    private Button btnSair;
+public class CheckList extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.bem_vindo);
+        setContentView(R.layout.check_list);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        btnCadastrar = (Button)findViewById(R.id.btnCadastrar);
-        btnSair = (Button)findViewById(R.id.btnSair);
-
-        btnCadastrar.setOnClickListener(this);
-
-      /*  FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -34,10 +23,4 @@ public class BemVindo extends AppCompatActivity implements View.OnClickListener{
         });*/
     }
 
-    @Override
-    public void onClick(View v) {
-
-        Intent it = new  Intent (this, CadastroDoNutricionistaTeste.class);
-        startActivity(it);
-    }
 }

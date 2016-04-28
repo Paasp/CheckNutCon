@@ -14,5 +14,9 @@
     <string name="lbl_pesquisar">Pesquisar</string>
     <string name="lbl_cliente">Cliente</string>
     <string name="lbl_checkList">CheckList</string>
+    <string name="title_activity_check_list">CheckList</string>
+    <string name="title_activity_bem_vindo">BemVindo</string>
+    <string name="title_activity_cadastro_do_nutricionista">CadastroDoNutricionista</string>
+    <string name="title_activity_check_nut_con">CheckNutCon</string>
 
 </resources>
