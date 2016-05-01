@@ -1,22 +1,52 @@
 <resources>
     <string name="app_name">CheckNutCon</string>
-    <string name="lbl_bemvindo_crie">Bem Vindo ao CheckNutCon! Favor efetuar o cadastro para acessar a aplicação.</string>
+    <string name="lbl_bem_vindo_crie">Bem Vindo ao CheckNutCon! Favor efetuar o cadastro para acessar a aplicação.</string>
     <string name="lbl_Cadastrar">Cadastrar</string>
-    <string name="lbl_sair">SAIR</string>
+    <string name="lbl_sair">Sair</string>
     <string name="lbl_nome">Nome</string>
-    <string name="lbl_numeroCRN">CRN Nº</string>
+    <string name="lbl_numero_CRN">CRN Nº</string>
     <string name="lbl_formacao">Formação</string>
     <string name="lbl_email">E-mail</string>
     <string name="lbl_salvar">Salvar</string>
     <string name="lbl_bem_vindo">Bem Vindo</string>
-    <string name="lbl_novoCliente">Novo Cliente</string>
-    <string name="lbl_novaConsultoria">Nova Consultoria</string>
+    <string name="lbl_novo_cliente">Novo Cliente</string>
+    <string name="lbl_nova_consultoria">Nova Consultoria</string>
     <string name="lbl_pesquisar">Pesquisar</string>
     <string name="lbl_cliente">Cliente</string>
     <string name="lbl_checkList">CheckList</string>
+    <string name="lbl_inicio">Inicio</string>
     <string name="title_activity_check_list">CheckList</string>
     <string name="title_activity_bem_vindo">BemVindo</string>
     <string name="title_activity_cadastro_do_nutricionista">CadastroDoNutricionista</string>
     <string name="title_activity_check_nut_con">CheckNutCon</string>
+    <string name="title_activity_cliente_principal">ClientePrincipal</string>
+    <string name="title_activity_novo_check_list">NovoCheckList</string>
+    <string name="title_activity_novo_cliente">NovoCliente</string>
+
+    <string name="lbl_respomsavel_legal">Responsável Legal / Proprietário do Estabelecimento</string>
+    <string name="lbl_indetificacao_estabelecimento">Identificação do Estabelecimento</string>
+    <string name="lbl_razao_social">Razão Social</string>
+    <string name="lbl_cnpj_cpf">CNPJ / CPF</string>
+    <string name="lbl_alvara_licenca">Alvará / Licença Sanitária</string>
+    <string name="lbl_fone">Fone</string>
+    <string name="lbl_fax">Fax</string>
+    <string name="lbl_endereco">Endereço</string>
+    <string name="lbl_rua_avenida">Rua / Avenida</string>
+    <string name="lbl_complemento">Complemento</string>
+    <string name="lbl_numero">Número</string>
+    <string name="lbl_bairro">Bairro</string>
+    <string name="lbl_municipio">Município</string>
+    <string name="lbl_uf">UF</string>
+    <string name="lbl_cep">CEP</string>
+    <string name="lbl_ramo_atividade">Ramo de Atividade</string>
+    <string name="lbl_producao_mensal">Produção Mensal</string>
+    <string name="lbl_numero_funcionario">Número de Funcionários</string>
+    <string name="lbl_numero_turnos">Número de Turnos</string>
+    <string name="lbl_categoria_produtos">Categoria de Produtos</string>
+    <string name="lbl_descricao_categoria">Descrição da Categoria</string>
+    <string name="lbl_responsavel_tecnico">Responsável Técnico</string>
+    <string name="lbl_formacao_academica">Formação Acadêmica</string>
+    <string name="lbl_cancelar">Cancelar</string>
+
 
 </resources>
