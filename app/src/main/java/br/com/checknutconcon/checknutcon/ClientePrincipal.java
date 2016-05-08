@@ -7,8 +7,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.*;
+import android.widget.*;
 
-public class ClientePrincipal extends AppCompatActivity {
+public class ClientePrincipal extends AppCompatActivity implements View.OnClickListener{
+
+    private Button btnNovoCliente;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +20,10 @@ public class ClientePrincipal extends AppCompatActivity {
         setContentView(R.layout.cliente_principal);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        btnNovoCliente = (Button)findViewById(R.id.btnNovoCliente);
+        btnNovoCliente.setOnClickListener(this);
+
 
         /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -60,5 +68,13 @@ public class ClientePrincipal extends AppCompatActivity {
 
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onClick(View v) {
+
+        Intent it = new Intent(this, NovoCliente.class);
+        startActivity(it);
+
     }
 }

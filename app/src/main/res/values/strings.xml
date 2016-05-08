@@ -2,12 +2,13 @@
     <string name="app_name">CheckNutCon</string>
     <string name="lbl_bem_vindo_crie">Bem Vindo ao CheckNutCon! Favor efetuar o cadastro para acessar a aplicação.</string>
     <string name="lbl_Cadastrar">Cadastrar</string>
-    <string name="lbl_sair">Sair</string>
     <string name="lbl_nome">Nome</string>
     <string name="lbl_numero_CRN">CRN Nº</string>
     <string name="lbl_formacao">Formação</string>
     <string name="lbl_email">E-mail</string>
     <string name="lbl_salvar">Salvar</string>
+    <string name="lbl_cancelar">Cancelar</string>
+    <string name="lbl_sair">Sair</string>
     <string name="lbl_bem_vindo">Bem Vindo</string>
     <string name="lbl_novo_cliente">Novo Cliente</string>
     <string name="lbl_nova_consultoria">Nova Consultoria</string>
@@ -46,7 +47,88 @@
     <string name="lbl_descricao_categoria">Descrição da Categoria</string>
     <string name="lbl_responsavel_tecnico">Responsável Técnico</string>
     <string name="lbl_formacao_academica">Formação Acadêmica</string>
-    <string name="lbl_cancelar">Cancelar</string>
+
+    <string name="lbl_1_area_externa">1. ÁREA EXTERNA</string>
+    <string name="lbl_2_recebimento">2. RECEBIMENTO	</string>
+    <string name="lbl_3_armazenamento_estoque">3. ARMAZENAMENTO ESTOQUE SECO</string>
+    <string name="lbl_4_camara_produtos_refrigerados">4. CÂMARA DE PRODUTOS REFRIGERADOS</string>
+    <string name="lbl_5_camara_produto_congelado">5. CÂMARA DE PRODUTOS CONGELADOS</string>
+    <string name="lbl_6_area_exposicao_venda">6. ÁREA DE EXPOSIÇÃO À VENDA</string>
+    <string name="lbl_7_ilhas_balcoes_geladeiras_freezers">7. ILHAS/ BALCÕES/ GELADEIRAS/ FREEZERS DE EXPOSIÇÃO À VENDA</string>
+    <string name="lbl_8_padaria_confeitaria">8. PADARIA/CONFEITARIA</string>
+    <string name="lbl_9_acougue">9. AÇOUGUE</string>
+    <string name="lbl_10_peixaria">10. PEIXARIA</string>
+    <string name="lbl_11_salsicharia_fiambreria">11. SALSICHARIA/FIAMBRERIA</string>
+    <string name="lbl_12_rotisserie">12. ROTISSERIE</string>
+    <string name="lbl_13_lanchonete">13. LANCHONETE</string>
+    <string name="lbl_14_refeitorio">14. REFEITÓRIO</string>
+    <string name="lbl_15_manipuladores">15. MANIPULADORES</string>
+    <string name="lbl_16_sanitarios_vestuarios_feminino_masculino">16. SANITÁRIOS E VESTIARIOS FEMININO E MASCULINO</string>
+    <string name="lbl_17_abastecimento">17. ABASTECIMENTO DE ÁGUA</string>
+    <string name="lbl_18_esgotamento_sanitario">18. ESGOTAMENTO SANITÁRIO</string>
+    <string name="lbl_19_controle_pragas_vetores">19. CONTROLE DE PRAGAS E VETORES</string>
+    <string name="lbl_20_documentacao">20. DOCUMENTAÇÃO</string>
+
+
+    <string name="lbl_1_1_Area_externa_livre">"1.1. Área externa livre de focos de insalubridade, ausência de lixo e objetos em desuso, livre de focos de vetores, animais domésticos e roedores. Acesso independente, não comum a habitação e outros usos"</string>
+    <string name="lbl_1_2_coletores_residuos_sao">"1.2. Coletores de resíduos são independentes para depósito de resíduos secos e orgânicos, dotados de tampas e de fácil limpeza."</string>
+    <string name="lbl_1_3_local_proprio_adequado">"1.3. Local próprio e adequado para acomodação dos coletores de lixo e recicláveis, provido de ponto de água, ralo, protegido de chuva, sol, não permitindo acesso de vetores e pragas urbanas, bem como livre de odores ou incômodo à vizinhança"</string>
+    <string name="lbl_2_1_entregadores_materia_Prima">"2.1. Os entregadores de matérias-primas, ingredientes, embalagens, alimentos industrializados ou prontos para consumo apresentam-se em condições satisfatórias de higiene."</string>
+    <string name="lbl_2_2_existe_area_exclusiva">"2.2. Existe área exclusiva para recepção de mercadorias protegida de chuva, sol, poeira e
+    livre de materiais ou equipamentos inservíveis."</string>
+    <string name="lbl_2_3_alimentos_rtansportados_veiculos">"2.3. Os alimentos são transportados em veículos limpos, fechados, refrigerados ou
+    isotérmicos, se necessário."</string>
+    <string name="lbl_2_4_temperatura_produtos_sob">"2.4. A temperatura dos produtos sob condições especiais de conservação, na hora do
+    recebimento, é verificada e registrada em planilhas"</string>
+    <string name="lbl_2_5_verificados_minimo_produtos">"2.5. São verificados, no mínimo, nos produtos: data de validade, nº de registro no órgão
+    competente, características sensoriais, integridade das embalagens."</string>
+    <string name="lbl_3_1_produtos_reprovados_prazo">"3.1. Produtos reprovados, com prazo de validade vencido ou para devolução aos
+    fornecedores estão armazenados e identificados adequadamente."</string>
+    <string name="lbl_3_2_deposito_apresenta_piso">"3.2. O depósito apresenta piso, parede e teto construído com material liso, resistente,
+    impermeável e lavável. Conservados, livres de rachaduras, trincas, goteiras, bolores e
+    descascamentos." </string>
+    <string name="lbl_3_3_iluminacao_deposito_suficiente">"3.3. A Iluminação do depósito é suficiente. Luminárias protegidas contra queda acidentais e
+    explosão, em adequado estado de conservação e higiene." </string>
+    <string name="lbl_3_4_instalacoes_eletricas_embutidas">"3.4. Instalações elétricas embutidas ou protegidas em tubulações externas e íntegras de tal
+    forma a permitir a higienização dos ambientes." </string>
+    <string name="lbl_3_5_ventilacao_adequada_janelas"> "3.5. Ventilação adequada. Janelas com telas milimétricas removíveis sem falhas de
+    revestimento e ajustadas aos batentes. As janelas estão protegidas de modo a não permitirem
+    que os raios solares incidam diretamente sobre os alimentos ou equipamentos mais sensíveis
+    ao calor." </string>
+    <string name="lbl_3_6_portas_superficie_lisa">"3.6. Portas com superfície lisa, cores claras, de fácil limpeza, ajustadas aos batentes, de
+    material não absorvente, com fechamento automático e protetor no rodapé" </string>
+    <string name="lbl_3_7_alimentos_devem_armazenados">"3.7. Os alimentos devem ser armazenados de forma organizada, em local limpo,
+    separadamente de materiais de limpeza e descartáveis, colocados sobre paletes, prateleiras
+    ou estrados fixos ou móveis e com espaçamento mínimo necessário para garantir adequada
+    ventilação, limpeza e, quando for o caso, a desinfecção do local." </string>
+    <string name="lbl_3_8_embalagens_integras_identificacao">"3.8. Embalagens íntegras, de identificação visível e com dados necessários para garantir a
+    rastreabilidade e a validade dos produtos." </string>
+    <string name="lbl_4_1_porta_camara_fria">4.1. A porta da câmara fria está totalmente vedada. </string>
+    <string name="lbl_4_2_possui_dispositivo_seguranca">4.2. Possui dispositivo de segurança que permite sua abertura pelo lado interno. </string>
+    <string name="lbl_4_3_camara_possui_termometro">"4.3. A câmara possui termômetro no lado externo indicando a temperatura interna da
+    câmara." </string>
+    <string name="lbl_4_4_camara_revestida_material">"4.4. A câmara é revestida de material liso, resistente e impermeável. Está livre de ralos e
+    grelha, encontra-se em bom estado de conservação e limpeza. Não existe gotejamento." </string>
+    <string name="lbl_4_5_camara_possui_paletes">"4.5. A câmara possui paletes, estrados e/ou prateleiras de material liso, resistente,
+    impermeável e lavável" </string>
+    <string name="lbl_4_6_embalagens_integras_identificacao">"4.6. Embalagens íntegras, de identificação visível e com dados necessários para garantir a
+    rastreabilidade e a validade dos produtos" </string>
+    <string name="lbl_4_7_produtos_distantes_paredes">"4.7. Produtos distantes das paredes e entre grupos, afastados de condensadores e
+    evaporadores" </string>
+    <string name="lbl_4_8_produtos_destinados_devolucao">"4.8. Produtos destinados à devolução ou descarte estão identificados e colocados em local
+    apropriado." </string>
+    <string name="lbl_4_9_alimentos_estao_armazenados">"4.9. Os alimentos estão armazenados em temperatura e tempo adequados, conforme
+    recomendação do fabricante ou conforme o disposto no artigo 34, inciso II para cada grupo
+    ou categoria de alimento" </string>
+    <string name="lbl_4_10_ausencia_produtos_prazo">4.10. Ausência de produtos com prazos de validade vencidos. </string>
+    <string name="lbl_4_11_periodicidade_procedimento_higienizaca">4.11. A periodicidade e os procedimentos de higienização estão adequados </string>
+    <string name="lbl_4_12_iluminacao_suficiente_luminaria">"4.12. Iluminação suficiente. Luminárias protegidas contra queda acidental e explosão, em
+    adequado estado de conservação e higiene" </string>
+    <string name="lbl_4_13_instalacoes_eletricas_embutidas">"4.13. Instalações elétricas embutidas ou protegidas em tubulações externas e íntegras de tal
+    forma a permitir a higienização do ambiente" </string>
+    <string name="lbl_data">Data</string>
+    <string name="lbl_dados_cliente">Dados do Cliente</string>
+    <string name="lbl_alterar">Alterar</string>
 
 
 </resources>

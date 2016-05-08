@@ -13,9 +13,15 @@
     tools:showIn="@layout/cliente_principal"
     android:orientation="vertical">
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_novo_cliente"
+        android:id="@+id/btnNovoCliente" />
+
     <LinearLayout
         android:orientation="horizontal"
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:weightSum="1">
 
@@ -24,7 +30,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/edtPesquisa"
             android:layout_gravity="left"
-            android:layout_weight="0.97" />
+            android:layout_weight="0.99" />
 
         <ImageButton
             android:layout_width="50dp"
