@@ -14,7 +14,6 @@
     <string name="lbl_nova_consultoria">Nova Consultoria</string>
     <string name="lbl_pesquisar">Pesquisar</string>
     <string name="lbl_cliente">Cliente</string>
-    <string name="lbl_checkList">CheckList</string>
     <string name="lbl_inicio">Inicio</string>
     <string name="title_activity_check_list">CheckList</string>
     <string name="title_activity_bem_vindo">BemVindo</string>
@@ -126,9 +125,14 @@
     adequado estado de conservação e higiene" </string>
     <string name="lbl_4_13_instalacoes_eletricas_embutidas">"4.13. Instalações elétricas embutidas ou protegidas em tubulações externas e íntegras de tal
     forma a permitir a higienização do ambiente" </string>
+
     <string name="lbl_data">Data</string>
     <string name="lbl_dados_cliente">Dados do Cliente</string>
     <string name="lbl_alterar">Alterar</string>
+    <string name="lbl_consultoria">Consultoria</string>
+    <string name="lbl_confome">Conforme</string>
+    <string name="lbl_nao_conforme">Não Conforme</string>
+    <string name="lbl_n_a">N. A.</string>
 
 
 </resources>

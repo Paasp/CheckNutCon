@@ -2,24 +2,23 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".Principal">
+    tools:context=".ConsultoriaPrincipal">
 
     <item
-        android:id="@+id/mni_acaoInicial"
+        android:id="@+id/mni_acaoInicio"
         android:orderInCategory="100"
         android:title="@string/lbl_inicio"
         app:showAsAction="never" />
-
     <item
-        android:id="@+id/mni_acaoConsultoria"
+        android:id="@+id/mni_acaoCliente"
         android:orderInCategory="100"
-        android:title="@string/lbl_consultoria"
+        android:title="@string/lbl_cliente"
         app:showAsAction="never" />
+
     <item
         android:id="@+id/mni_acaoSair"
         android:orderInCategory="100"
         android:title="@string/lbl_sair"
         android:visible="true"
         app:showAsAction="never" />
-
 </menu>
