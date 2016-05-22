@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CheckList"
+            android:name=".ConsultoriaPrincipal"
             android:label="@string/title_activity_check_list"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
@@ -27,7 +27,7 @@
             android:label="@string/title_activity_cadastro_do_nutricionista"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".CheckNutCon"
+            android:name=".Principal"
             android:label="@string/title_activity_check_nut_con"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
@@ -41,7 +41,11 @@
         <activity
             android:name=".NovoCliente"
             android:label="@string/title_activity_novo_cliente"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Consultoria"
+            android:label="@string/lbl_consultoria"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

@@ -7,8 +7,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.*;
-import android.widget.*;
+import android.view.View;
+import android.widget.Button;
 
 public class ClientePrincipal extends AppCompatActivity implements View.OnClickListener{
 
@@ -50,12 +50,12 @@ public class ClientePrincipal extends AppCompatActivity implements View.OnClickL
         switch (item.getItemId()){
 
             case R.id.mni_acaoInicial:
-                Intent inicial = new Intent(this, CheckNutCon.class);
+                Intent inicial = new Intent(this, Principal.class);
                 startActivity(inicial);
 
                 break;
             case R.id.mni_acaoCheckList:
-                Intent checkList = new Intent(this, CheckList.class);
+                Intent checkList = new Intent(this, ConsultoriaPrincipal.class);
                 startActivity(checkList);
 
                 break;

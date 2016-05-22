@@ -2,12 +2,22 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="br.com.checknutconcon.checknutcon.CheckList">
+    tools:context=".ConsultoriaPrincipal">
 
-    <item android:id="@+id/mni_acaoCliente" android:title="@string/lbl_inicio"
-        android:orderInCategory="100" app:showAsAction="never" />
-    <item android:id="@+id/mni_acaoCheckList" android:title="@string/lbl_cliente"
-        android:orderInCategory="100" app:showAsAction="never" />
-    <item android:id="@+id/mni_acaoSair" android:title="@string/lbl_sair"
-        android:orderInCategory="100" app:showAsAction="never" android:visible="true"/>
+    <item
+        android:id="@+id/mni_acaoCliente"
+        android:orderInCategory="100"
+        android:title="@string/lbl_inicio"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mni_acaoCheckList"
+        android:orderInCategory="100"
+        android:title="@string/lbl_cliente"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mni_acaoSair"
+        android:orderInCategory="100"
+        android:title="@string/lbl_sair"
+        android:visible="true"
+        app:showAsAction="never" />
 </menu>
